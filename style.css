@@ -1,0 +1,33 @@
+body{
+     display: grid;
+     align-items: center;
+     justify-content: center;
+     height: 100%;
+     background-image: url(images/Hello.gif) ;
+     background-size: cover;
+     background-repeat: no-repeat;
+     margin: 5px;
+     padding: 5px;
+}
+
+h1{
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 50px;
+}
+
+ul{
+     justify-content: center;
+     align-items: center;
+     margin-top: 50%;
+}
+
+ul li a{
+     text-decoration: none;
+     color: black;
+     font-size: 40px;
+     padding: 10px;
+}
+
+ul li a:hover{
+     color: red;
+}
